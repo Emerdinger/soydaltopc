@@ -105,8 +105,49 @@
     font-size: 20vh;
 }
 
+@media (max-width: 750px) {
+    .segundo-req h1{
+        font-size: 80px;
+    }
+
+    .millonLikes {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 650px) {
+    .icons{
+        display: none;
+    }
+
+    iframe{
+        width: 400px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 425px) {
+    iframe{
+        width: 350px;
+        height: 280px;
+    }
+
+    .segundo-req h1{
+        font-size: 60px;
+    }
+
+    .millonLikes {
+        font-size: 60px;
+    }
+}
+
 @media (max-width: 375px) {
     .pc-img{
         background-size: cover;
+    }
+
+    iframe{
+        width: 250px;
+        height: 180px;
     }
 }
